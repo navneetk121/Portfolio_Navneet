@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Navneet</title> 
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo_navneet.jpg" class="logo"alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#Hobbies">Hobbies</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <span> Navneet Kumar</span><br> From India</h1>
+              <p>Student | Programmer | Developer</p>
+              
+        </div>
+        </div>
+    </div>
+    <!------------------about--------------------------->
+    <div id="about">
+        <div class="container">
+           <div class="row">
+                <div class="about-col-1">
+                    <img src="images/navneet_about.jpg" alt="">
+                </div>  
+                <div class="about-col-2">
+                 <h1 class="sub-title">About Me</h1>
+                  <p>Born and brought up in the city of Lakes Bhopal, Currently pursuing B.Tech in Electronics and 
+                    Communication Engineering from MANIT, BHOPAL. Determined to work hard towards the goals I 
+                    aspire to achieve in life.
+                  </p>
+                   
+                  <!----   <div class="tab-titles">
+                       <p class="tab-links active-links" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">experience</p>---->
+                    <div id="Education">
+                        <h1 class="tab">Education</h1>
+                    </div>
+               <!---     <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Designing web interfaces</li>
+                            <li><span>DSA Problem Solving</span><br>Data Structure And Algorithms</li>
+                            <li><span>Communication Skills</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"id="experience">
+                        <ul>
+                            <li><span>Web Development</span><br>Designing web interfaces</li>
+                            <li><span>DSA Problem Solving</span><br>Data Structure And Algorithms</li>
+                            <li><span>Communication Skills</span></li>
+                        </ul>
+                    </div>--->
+                    <div class="tab-contents">
+                        
+                        <div class="edu-col1">
+                            <div>
+                            <img src="images/manit.jpg">
+                            <ul>
+                                <li><span>B.Tech-ECE(2021-Current)</span><br>MANIT BHOPAL</li>
+                            </ul>
+                        </div>
+                        </div>
+                        <div class="edu-col2">
+                            <img src="images/jns.jpg">
+                            <ul>
+                                <li><span>Schooling(2008-2020)</span><br>Jawaharlal Nehru School Bhopal</li>
+                            </ul>
+                        </div>
+                    
+                    </div>
+                </div>
+           </div>
+        </div>
+    </div>
+ <!------------------skills--------------------------->    
+<div class="skills" id="skills">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="skill-list">
+          <div>
+            <i class="fa-solid fa-globe"></i>
+            <h2>Web Development</h2>
+            <p>Designing web interfaces using HTML, CSS and JavaScript.</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Data Structure And Algorithms</h2>
+            <p>Learning DSA </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-keyboard"></i>        
+                <h2>Competitive Programming</h2>
+            <p>Enjoys online coding contests</p>
+          </div>
+        </div>
+        <br>
+        
+        <h2>PROGRAMMING PROFILES</h2>
+        <div class="profile-list">
+            <div>
+                <a href="https://www.codechef.com/users/navneetk12"><img src="images/codechef.jpg"></a>
+            </div>
+            <div>
+                <a href="https://codeforces.com/profile/navneetk12"><img src="images/codeforcces.jpg"></a>
+           </div>
+            <div>
+             <a href="https://auth.geeksforgeeks.org/user/navneeet53vr/practice"><img src="images/gfg.jpg"></a>
+           </div>
+            <div>
+                 <a href="https://leetcode.com/navneetk12/"><img src="images/leetcode.png"></a>
+            </div>
+             <div>
+                 <a href="https://github.com/navneetk121"><img src="images/github.png"></a>
+            </div>
+        
+        </div>
+    </div>
+</div>
+
+<!----   Hobbies -->
+<div id="Hobbies">
+  <div class="container">
+    <h1 class="sub-title">My Hobbies</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/chess.jpg" alt="">
+           <div class="layer">
+            <h3>Playing Chess</h3>
+            <p>I love to play Chess. Mostly play online, Rated 1800+ on LiChess</p>
+          </div>
+        </div>
+        <div class="work">
+            <img src="images/Sports.jpg" alt="">
+           <div class="layer">
+            <h3>Sports Enthusiast</h3>
+            <p>Enjoy Playing and Watching all Popular and accessible Sports. Cricket and Tennis being the constants</p>
+          </div>
+        </div>
+        <div class="work">
+            <img src="images/quiz.jpg" alt="">
+            <div class="layer">
+                <h3>Quizzer</h3>
+                <p>Been a National Level Quizzer with various prizes in quizzing</p>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/poet.jpg" alt="">
+            <div class="layer">
+                <h3>Listening Hindi poetry</h3>
+                <p>More of a refresher for my mood, equally enjoyable to songs.</p>
+            </div>
+        </div>
+   </div>
+  </div>
+</div>
+
+<!---    contact-->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>navneeetkumar98@gmail.com</p>
+                <p><i class="fa fa-phone" aria-hidden="true"></i>9131182079</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/navneet-kumar-323b4924b/?originalSubdomain=in"> <i class="fa-brands fa-linkedin"></i> </a>
+                    <a href="https://www.instagram.com/_naavneeet_/"> <i class="fa-brands fa-square-instagram"></i> </a>
+                    <a href="https://twitter.com/NavNeeT_kumar12"> <i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://m.facebook.com/profile.php?id=100042211443842"> <i class="fa-brands fa-facebook"></i> </a>
+
+                </div>
+                <a id="portfolio" href="resume/fake resume.pdf" download class="btn">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required> 
+                <input type="email" name="Email" placeholder="Your Email" required> 
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>copyright ©Navneet_kumar</p>
+        </div>
+    
+    </div>
+</div>
+
+<script>
+    var sidemenu= document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxjaz9MUOqY4s3j4wl10sZPS9JKFOQ8PCh8B4Qb5mtPK7g2HXGK8d8Phcc6RRXdhC0xkQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully!... you'll be contacted soon"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
